@@ -54,6 +54,7 @@ nav .container a{
     padding: 0.5vw 0.8vw;
     margin: 0 1vw;
     transition: color 0.3s ease;
+    text-decoration: none;
 }
 
 nav .container a:hover{
@@ -111,6 +112,7 @@ nav .container a img{
     color: #1d4cdb;
     border-radius: 6px;
     padding: 0.5vw 0.8vw;
+    text-decoration: none;
 }
 
 .action a:hover{
@@ -173,4 +175,67 @@ nav .container a img{
 
 td img{
     width: 100%;
+}
+
+.text p{
+    font-size: 1vw;
+}
+
+.action-info{
+    justify-content: space-between;
+}
+
+.action-info a{
+    background-color: #1d4cdb;
+    border: 1px solid #1d4cdb;
+    color: #fff2db;
+    border-radius: 6px;
+    padding: 0.5vw 0.8vw;
+    text-decoration: none;
+}
+
+.action-info a:hover{
+    background-color: transparent;
+    border: 1px solid #1d4cdb;
+    color: #1d4cdb;
+    border-radius: 6px;
+    padding: 0.5vw 0.8vw;
+}
+
+.action a:hover i{
+    color: #1d4cdb;
+}
+
+.action-info a i{
+    color: #fff2db;
+    width: 1vw;
+}
+
+footer{
+    display: flex;
+}
+
+footer ul{
+    padding: 2vw;
+    list-style: none;
+}
+
+footer ul li{
+    padding: 0.75vw 0;
+}
+
+footer ul li a{
+    width: 10vw;
+    padding: 0.5vw;
+    text-decoration: none;
+    border: 1px solid #fff2db;
+    border-radius: 6px;
+}
+
+footer ul li a:hover{
+    text-decoration: none;
+    background-color: #fff2db;
+    border: 1px solid #fff2db;
+    color: #1d4cdb;
+    box-shadow: 0 6px 40px rgba(0, 0, 0, 0.4);
 }
