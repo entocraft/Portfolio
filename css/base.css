@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-bold-rounded/css/uicons-bold-rounded.css');
+
+*{
+    color: #fff2db;
+}
+
+header{
+    height: 50vh;
+}
+
+body{
+    color: #fff2db;
+    margin: 0px;
+    font-family: "Climate Crisis";
+}
+
+.noise{
+    background-color: #1d4cdb;
+    background-image: url(../imgs/Noise.png);
+}
+
+.noise_white{
+    background-color: #0919cc;
+    background-image: url(../imgs/Noise.png);
+}
+
+header{
+    padding: 2vw;
+}
+
+nav{
+    position: sticky;
+    top: 2vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav .container{
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.38);
+    margin-right: 2vw;
+}
+
+nav .container a{
+    border-radius: 6px;
+    padding: 0.5vw 0.8vw;
+    margin: 0 1vw;
+    transition: color 0.3s ease;
+}
+
+nav .container a:hover{
+    background-color: #fff2db;
+    color: #1d4cdb;
+}
+
+nav .container a img{
+    height: 2vw;
+}
+
+.projects{
+    padding-top: 2vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card{
+    font-family: "Krona One";
+    width: 24vw;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.38);
+    margin-bottom: 3vw;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 6px 40px rgba(0, 0, 0, 0.4);
+}
+
+.card img{
+    width: 23.8vw;
+    border-radius: 7px;
+}
+
+.card h3{
+    color: #fff2db;
+}
+
+.action{
+    justify-content: space-between;
+}
+
+.action a{
+    background-color: #fff2db;
+    border: 1px solid #fff2db;
+    color: #1d4cdb;
+    border-radius: 6px;
+    padding: 0.5vw 0.8vw;
+}
+
+.action a:hover{
+    background-color: transparent;
+    border: 1px solid #fff2db;
+    color: #fff2db;
+    border-radius: 6px;
+    padding: 0.5vw 0.8vw;
+}
+
+.action a:hover i{
+    color: #fff2db;
+}
+
+.action a i{
+    color: #1d4cdb;
+    width: 1vw;
+}
+
+
+.infos{
+    padding: 3vw 3vw 0 3vw;
+    background-color: #fff2db;
+    color: #1d4cdb;
+}
+
+.infos h1{
+    color: #1d4cdb;
+}
+
+.infos p{
+    color: #3c3b57;
+    font-family: "Krona One";
+}
+
+.info-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.info-container img{
+    width: 50vw;
+}
+
+.photos{
+    padding: 3vw 3vw 0 3vw;
+    background-color: #e9dcc7;
+    color: #1d4cdb;
+}
+
+.photos h1{
+    color: #1d4cdb;
+}
+
+.crédits{
+    color: #3c3b57;
+    font-size: 1vw;
+    font-family: "Krona One";
+}
+
+td img{
+    width: 100%;
+}
